@@ -1,0 +1,18 @@
+:root {
+  /* color */
+  --navy: #33374E;
+  --gray: #797B86;
+  --light-gray: #AEB0B6;
+  --blue-gray: #90A2B5;
+  --gray-blue: #2C3242;
+  --white: #FFFFFF;
+  --dark-blue: #1F2432;
+  --background: #F6F8FA;
+  --blue: #0069B4;
+  --black: #212121;
+  --very-light-gray: #C4C4C4;
+
+  /* radius */
+  --radius: 4px;
+  --big-radius: 5px;
+}
