@@ -2,7 +2,8 @@
   <div class="swiper-item">
     <img
       class="swiper-item__img"
-      :src="require('~/assets/img/img1.png')"
+      :src="src"
+      :alt="item.label"
     />
     <div class="swiper-item__body">
       <div class="swiper-item__details">
@@ -30,6 +31,16 @@ export default {
     item: {
       type: Object,
       default: ()=>({})
+    },
+  },
+  computed: {
+    src() {
+      try {
+        return require(`@/assets/img/${this.item.image}`);
+      } catch (e) {
+        console.error(e);
+        return '';
+      }
     },
   },
 }

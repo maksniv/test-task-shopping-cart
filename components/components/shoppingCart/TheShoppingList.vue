@@ -15,10 +15,9 @@
     </div>
     <div class="shopping-list__body">
       <TheShoppingListItem
-        v-for="(item, index) in storeShoppingList"
+        v-for="item in storeShoppingList"
         :key="item.product.id"
         :item="item"
-        :index="index"
       />
     </div>
    <TheShoppingListAction/>

@@ -2,10 +2,11 @@ export default {
   items: [
     {
       id: 1,
-      label: 'BXC1',
+      label: 'BXC',
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img2.png',
     },
     {
       id: 2,
@@ -13,6 +14,7 @@ export default {
       description: 'Многофункциональное вытяжное устройство для естественной и гибридной вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img1.png',
     },
     {
       id: 3,
@@ -20,6 +22,7 @@ export default {
       description: 'Вытяжное устройство с датчиком присутствия',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img3.png',
     },
     {
       id: 4,
@@ -27,6 +30,7 @@ export default {
       description: 'Вытяжное устройство с датчиком присутствия',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img4.png',
     },
     {
       id: 5,
@@ -34,6 +38,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img2.png',
     },
     {
       id: 6,
@@ -41,6 +46,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img1.png',
     },
     {
       id: 7,
@@ -48,6 +54,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img3.png',
     },
     {
       id: 8,
@@ -55,6 +62,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img4.png',
     },
     {
       id: 9,
@@ -62,6 +70,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img2.png',
     },
     {
       id: 10,
@@ -69,6 +78,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img1.png',
     },
     {
       id: 11,
@@ -76,6 +86,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img3.png',
     },
     {
       id: 12,
@@ -83,6 +94,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img4.png',
     },
     {
       id: 13,
@@ -90,6 +102,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img1.png',
     },
     {
       id: 14,
@@ -97,6 +110,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img2.png',
     },
     {
       id: 15,
@@ -104,6 +118,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img3.png',
     },
     {
       id: 16,
@@ -111,6 +126,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img4.png',
     },
     {
       id: 17,
@@ -118,6 +134,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img2.png',
     },
     {
       id: 18,
@@ -125,6 +142,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img1.png',
     },
     {
       id: 19,
@@ -132,6 +150,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img3.png',
     },
     {
       id: 20,
@@ -139,6 +158,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img4.png',
     },
     {
       id: 21,
@@ -146,6 +166,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img2.png',
     },
     {
       id: 22,
@@ -153,6 +174,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img1.png',
     },
     {
       id: 23,
@@ -160,6 +182,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img3.png',
     },
     {
       id: 24,
@@ -167,6 +190,7 @@ export default {
       description: 'Вытяжное устройство для механической системы вентиляции',
       priceRUB: '6 848 ₽ – 56 584 ₽ ',
       priceEURO: '77.60 € – 643.86 €',
+      image: 'img4.png',
     },
   ],
 }

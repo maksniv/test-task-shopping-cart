@@ -1,6 +1,3 @@
-/* eslint-disable no-shadow */
-// import img1 from '@/assets/img/img1.png'
-// import img2 from '~/assets/img/img1.png'
 export const state = () => ({
   shoppingList: [
     {
@@ -10,7 +7,7 @@ export const state = () => ({
         price: 3132,
         label: 'Вытяжное устройство G2H test1',
         description: '12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия',
-        // image: img1,
+        image: 'img1.png',
         article: 'G2H1065'
       },
     },
@@ -21,7 +18,7 @@ export const state = () => ({
         price: 2976,
         label: 'Вытяжное устройство G2H test2',
         description: '12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия',
-        // image: img2,
+        image: 'img2.png',
         article: 'G2H1065'
       },
     },
@@ -32,7 +29,7 @@ export const state = () => ({
         price: 1567,
         label: 'Вытяжное устройство G2H test',
         description: '12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия',
-        // image: img1,
+        image: 'img3.png',
         article: 'G2H1065'
       },
     },

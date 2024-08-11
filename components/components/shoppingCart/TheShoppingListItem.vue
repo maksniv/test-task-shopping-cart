@@ -2,7 +2,8 @@
   <div class="shopping-list-item">
     <img
       class="shopping-list-item__img"
-      :src="require('~/assets/img/img1.png')"
+      :src="src"
+      :alt="item.product.label"
     />
     <div class="shopping-list-item__body">
       <div class="shopping-list-item__details">
@@ -56,19 +57,20 @@ export default {
       type: Object,
       default: ()=>({})
     },
-    index: {
-      type: Number,
-      default: 0
-    },
   },
   computed: {
     totalPrice() {
       const total = this.item?.product?.price * this.item?.quantity;
       return total ? total.toLocaleString('ru-RU') : '0';
     },
-    // src() {
-    //   return require(`${this.item?.product?.images}`);
-    // },
+    src() {
+      try {
+        return require(`@/assets/img/${this.item.product.image}`);
+      } catch (e) {
+        console.error(e);
+        return '';
+      }
+    },
   },
   methods: {
     decrease() {
