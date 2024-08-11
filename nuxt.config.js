@@ -1,4 +1,8 @@
 export default {
+  target: 'static',
+  router: {
+    base: '/test-task-shopping-cart/'
+  },
   head: {
     title: 'Магазин вентиляции',
     htmlAttrs: {
