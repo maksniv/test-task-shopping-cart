@@ -33,6 +33,12 @@
         >
           &#43;
         </button>
+        <div
+          v-show="item.quantity > 1"
+          class="shopping-list-item__price"
+        >
+          {{ price }} ₽/шт.
+        </div>
       </div>
       <div class="shopping-list-item__total-price">{{ totalPrice }} ₽</div>
     </div>
@@ -62,6 +68,9 @@ export default {
     totalPrice() {
       const total = this.item?.product?.price * this.item?.quantity;
       return total ? total.toLocaleString('ru-RU') : '0';
+    },
+    price() {
+      return this.item?.product?.price.toLocaleString('ru-RU') || '0';
     },
     src() {
       try {
@@ -130,6 +139,7 @@ export default {
     line-height: 21px
     color: var(--gray)
   &__quantity-controls
+    position: relative
     display: flex
     align-items: center
     gap: 10px
@@ -154,6 +164,14 @@ export default {
       border-radius: var(--radius) 0 0 var(--radius)
     &--increase
       border-radius: 0 var(--radius) var(--radius) 0
+  &__price
+    font-weight: 400
+    font-size: 12px
+    line-height: 17.4px
+    font-family: 'Roboto', sans-serif
+    position: absolute
+    bottom: -25px
+    left: calc(50% - 32px)
   &__total-price
     min-width: 85px
     font-weight: 500
